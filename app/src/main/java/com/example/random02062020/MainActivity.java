@@ -18,11 +18,13 @@ public class MainActivity extends AppCompatActivity {
         //Builtin function
         //Ham lam tron
         //Ham tron len
-        double b = 5.01;
-        double newB = Math.ceil(b);
-        Log.d("BBB","ket qua cua b: " + newB);
+        //Ham lam tron xuong
+        double c = 5.99;
+        double newC = Math.floor(c);
+        Log.d("BBB","Ket qua c la: " + newC);
+        }
 
     }
 
 
-}
+
