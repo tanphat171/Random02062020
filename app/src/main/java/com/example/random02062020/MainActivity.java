@@ -17,9 +17,11 @@ public class MainActivity extends AppCompatActivity {
         // class, object
         //Builtin function
         //Ham lam tron
-        double a = 5.69;
-        long newA = Math.round(a);
-        Log.d("BBB","Ket qua cua a: " + newA );
+        //Ham tron len
+        double b = 5.01;
+        double newB = Math.ceil(b);
+        Log.d("BBB","ket qua cua b: " + newB);
+
     }
 
 
