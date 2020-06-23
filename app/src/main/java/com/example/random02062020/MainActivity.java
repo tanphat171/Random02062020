@@ -25,10 +25,10 @@ public class MainActivity extends AppCompatActivity {
         //double valueRandom = Math.random() * 5;
         //Log.d("BBB","Gia tri random la " + valueRandom);
         //random tu 0 -> 5 so nguyen
-        for (int i = 0; i < 100 ; i++) {
-            double valueRandom = Math.round(Math.random() * 5);
+
+            double valueRandom = Math.floor(Math.random() * 6);
             Log.d("BBB", "Gia tri random la " + valueRandom);
-        }
+
     }
 }
 
