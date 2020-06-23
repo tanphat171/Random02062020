@@ -20,13 +20,15 @@ public class MainActivity extends AppCompatActivity {
         //Ham tron len
         //Ham lam tron xuong
         //Ham so sanh
-        int a = 5;
-        int b = 6;
-        int solonnhat = Math.max(a, b);
-        int sonhonhat = Math.min(a, b);
-        Log.d("BBB", "So lon nhat la " + solonnhat);
-        Log.d("BBB", "So nho nhat la " + sonhonhat);
-
+        //Ham random
+        //random tu 0 -> 5 so le
+        //double valueRandom = Math.random() * 5;
+        //Log.d("BBB","Gia tri random la " + valueRandom);
+        //random tu 0 -> 5 so nguyen
+        for (int i = 0; i < 100 ; i++) {
+            double valueRandom = Math.round(Math.random() * 5);
+            Log.d("BBB", "Gia tri random la " + valueRandom);
+        }
     }
 }
 
