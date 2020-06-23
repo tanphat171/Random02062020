@@ -19,12 +19,15 @@ public class MainActivity extends AppCompatActivity {
         //Ham lam tron
         //Ham tron len
         //Ham lam tron xuong
-        double c = 5.99;
-        double newC = Math.floor(c);
-        Log.d("BBB","Ket qua c la: " + newC);
-        }
+        //Ham so sanh
+        int a = 5;
+        int b = 6;
+        int solonnhat = Math.max(a, b);
+        int sonhonhat = Math.min(a, b);
+        Log.d("BBB", "So lon nhat la " + solonnhat);
+        Log.d("BBB", "So nho nhat la " + sonhonhat);
 
     }
-
+}
 
 
