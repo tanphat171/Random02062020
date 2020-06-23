@@ -16,14 +16,11 @@ public class MainActivity extends AppCompatActivity {
         // public , private, protected, default
         // class, object
         //Builtin function
-        int a = 5;
-        int b = 6;
-        int ketqua = tinhtong(a, b);
-        Log.d("BBB",ketqua + "");
-    }
-    private  int tinhtong(int value1, int value2) {
-        return value1 + value2;
+        //Ham lam tron
+        double a = 5.69;
+        long newA = Math.round(a);
+        Log.d("BBB","Ket qua cua a: " + newA );
     }
 
 
-    }
+}
